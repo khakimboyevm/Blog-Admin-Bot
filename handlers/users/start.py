@@ -1,13 +1,16 @@
 from aiogram import types
 from aiogram.dispatcher.filters.builtin import CommandStart
 from loader import dp, db, bot
-from data.config import ADMINS
+from data.config import ADMINS, CHANNELS
+from keyboards.inline.subscription import check_button
 
 
 @dp.message_handler(CommandStart())
 async def bot_start(message: types.Message):
     name = message.from_user.username
+    full_name = message.from_user.full_name
     user = await db.select_user(telegram_id=message.from_user.id)
+    teshkrish = await check_button(bot)
     if user is None:
         user = await db.add_user(
             telegram_id=message.from_user.id,
@@ -20,4 +23,4 @@ async def bot_start(message: types.Message):
         await bot.send_message(chat_id=ADMINS[0], text=msg)
     # user = await db.select_user(telegram_id=message.from_user.id)
     await bot.send_message(chat_id=ADMINS[0], text=f"@{name} bazaga oldin qo'shilgan")
-    await message.answer(f"Xush kelibsiz! @{name}")
+    await message.answer(f"Xush kelibsiz! {full_name}", reply_markup=teshkrish)

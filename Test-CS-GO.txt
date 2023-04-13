@@ -1,0 +1,51 @@
+CS-GO test with answers!
+
+1.AK-47 dan M4A4 ustunligi nimada.
+a) O'q donni almashtrishni talab qilmaydi.\/
+b) Otish rejimini almashtrish imkoniyati.
+c) Ko'proq zarar.
+
+2.O'yin paytida AWP qurolini olish qancha turadi.?
+a) 4750$ \/
+b) 4450$
+c) 4900$
+
+3.O'yin paytida Desert Eagle qurolini olish qancha turadi?
+a) 600$
+b) 700$ \/
+c) 750$
+
+4.AK-47 zirhsiz boshga qancha zarar yetkazadi?
+a) 84
+b) 107
+c) 143 \/
+
+5.Bir round o'yin qancha davom etadi?
+a) 1m 55s
+b) 1m 45s \/
+c) 1m 35s
+
+6.Molotov necha soniya yonadi?
+a) 12.5s
+b) 9.6s \/
+c) 4.7s
+
+7.Bayter kim?
+a) Bomba qoyuvchi 
+b) O'lja \/
+c) Dim bilan himoya qiluvchi
+
+8.Terrorchilarga qarshi qanday qurollar mavjud emas?
+a) USP-S \/
+b) M4A4
+C) GALIL AR
+
+9.Pichoq bilan o'ldirganingiz uchun qancha pul olasiz?
+a) 2000$
+b) 1500$ \/
+c) 1000$
+
+10.AK-47 qancha turadi?
+a) 3100$
+b) 2900$
+c) 2700$ \/
