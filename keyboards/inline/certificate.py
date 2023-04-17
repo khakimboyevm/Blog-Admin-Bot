@@ -7,8 +7,8 @@ Gameni_tanlash.add(InlineKeyboardButton(text="CS GO", callback_data="cs-go"))
 Tayyorgarlik = InlineKeyboardMarkup(row_width=1)
 Tayyorgarlik.add(InlineKeyboardButton(text="✅Tayyorman", callback_data="tayyorman"))
 
-Tayyorgarlik2 = InlineKeyboardMarkup(row_width=1)
-Tayyorgarlik2.add(InlineKeyboardButton(text="✅Tayyorman.", callback_data="tayyorman."))
+# Tayyorgarlik2 = InlineKeyboardMarkup(row_width=1)
+# Tayyorgarlik2.add(InlineKeyboardButton(text="✅Tayyorman.", callback_data="tayyorman."))
 
 # --------------------CS-GO------------------------------
 
@@ -53,9 +53,9 @@ cs8.add(InlineKeyboardButton(text="AK-47", callback_data="AK_mavjud"))
 cs8.add(InlineKeyboardButton(text="GALIL AR", callback_data="GALIL_AR"))
 
 cs9 = InlineKeyboardMarkup(row_width=1)
-cs9.add(InlineKeyboardButton(text="2000$", callback_data="2000$"))
-cs9.add(InlineKeyboardButton(text="1500$", callback_data="1500$")) # \/
-cs9.add(InlineKeyboardButton(text="1000$", callback_data="1000$"))
+cs9.add(InlineKeyboardButton(text="2000$", callback_data="2000-$"))
+cs9.add(InlineKeyboardButton(text="1500$", callback_data="1500-$")) # \/
+cs9.add(InlineKeyboardButton(text="1000$", callback_data="1000-$"))
 
 cs10 = InlineKeyboardMarkup(row_width=1)
 cs10.add(InlineKeyboardButton(text="3100$", callback_data="3100$"))
