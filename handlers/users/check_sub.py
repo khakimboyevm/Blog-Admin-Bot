@@ -7,7 +7,7 @@ from states.main import peggy_state
 from aiogram.dispatcher import FSMContext
 from filters import IsPrivate
 
-@dp.callback_query_handler(IsPrivate() ,text="tekshirish",state=peggy_state.subscribe)
+@dp.callback_query_handler(IsPrivate(),text="tekshirish",state=peggy_state.subscribe)
 async def checker(call: types.CallbackQuery, state: FSMContext):
     await call.answer("Loading!")
     result = ""
